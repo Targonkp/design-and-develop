@@ -11,4 +11,13 @@ vid.addEventListener('click',
         overlay.classList.toggle('player');
     }
     }
-    )
+    );
+
+let nav = document.querySelector('nav');
+let menylink = document.querySelector('.burger-meny');
+menylink.addEventListener(
+    'click',
+    ()=>{
+        nav.classList.toggle('burger-meny-active');
+    }
+);

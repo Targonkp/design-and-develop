@@ -28,7 +28,7 @@ gulp.task('sync', function () {
 });
 
 gulp.task('styles', function() {
-    return gulp.src(['./src/css/normalize.css', './src/css/main.css'])
+    return gulp.src(['./src/css/normalize.css', './src/css/swiper.min.css', './src/css/main.css', './src/css/adaptive.css'])
         .pipe(concat('all.css'))
         .pipe(gulp.dest('./dist/css/'));
 });

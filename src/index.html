@@ -7,14 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Design and Develop</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.mini.css">
 </head>
 <body>
 <div class="wrap">
 <header>
     <nav>
         <img src="images/logo.png" alt="" width="31px" height="25px">
+        <div class="burger-meny">
+            <span class="burger-meny-lines"></span>
+        </div>
         <ul class="meny">
             <li><a href="">home</a></li>
             <li><a href="">about</a></li>
@@ -24,6 +26,7 @@
             <li><a href="">testimonals</a></li>
             <li><a href="">contact</a></li>
         </ul>
+        <div class="burger-meny-overlay"></div>
     </nav>
     <div class="header-img"><img src="images/background.png" alt=""></div>
     <div class="header-content">
@@ -176,9 +179,29 @@
 
 <div class="wrap">
     <section class="section-7">
-        <div class="section-7-slider">
-
-        </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                            to work with them on a sizable first project and am looking
+                            forward to start the next one asap.”</p>
+                        <span>Michael Hopkins</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                            to work with them on a sizable first project and am looking
+                            forward to start the next one asap.”</p>
+                        <span>Michael Hopkins</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                            to work with them on a sizable first project and am looking
+                            forward to start the next one asap.”</p>
+                        <span>Michael Hopkins</span>
+                         </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
     <div class="section-7-logo">
         <ul>
             <li><img src="images/logo%20(1).png" alt=""></li>
@@ -189,6 +212,7 @@
         </ul>
     </div>
     </section>
+</div>
     <div class="wrap">
     <section class="section-8">
         <h2>Need a Project?</h2>
@@ -239,7 +263,10 @@
             </ul>
         </div>
     </footer>
-    <script src="js/app.js"></script>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
